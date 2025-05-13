@@ -1631,6 +1631,8 @@
             "dbot.deriv.be": a.PRODUCTION_BE,
             "dbot.deriv.me": a.PRODUCTION_ME,
             "geetrading.web.app": a.PRODUCTION,
+            "derivpro.site": a.PRODUCTION, // <-- Add this line
+            "www.derivpro.site": a.PRODUCTION, // (optional, if you use www)
           },
           l = () =>
             !/^staging\./.test(window.location.hostname) &&
